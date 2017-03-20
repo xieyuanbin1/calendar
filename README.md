@@ -70,3 +70,15 @@ calendar.lunar2solar(1987,9,10);
 
 
 * 该代码还有其他可以调用的方法，请自己查看代码中的详细注释
+
+* #### 现在可以通过npm来使用calendar了
+
+```npm
+npm install solar2lunar --save-dev
+```
+
+```javascript
+import calendar from 'solar2lunar'
+
+calendar.solar2lunar(1987,11,01);
+```

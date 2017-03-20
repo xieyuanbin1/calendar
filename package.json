@@ -1,5 +1,5 @@
 {
-  "name": "calendar",
+  "name": "solar2lunar",
   "version": "1.0.0",
   "description": "简单地将原有代码转换成了ES6规范，用于模块化导入使用。\r 经过原作者的同意，将代码推送到github。如需联系联系作者，见如下：",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xybin1990/calendar.git"
+    "url": "https://github.com/xybin1990/calendar.git"
   },
   "keywords": [],
   "author": "",
