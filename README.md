@@ -1,3 +1,15 @@
 # calendar
 
-代码只是简单地将原有代码转换成了ES6规范，用于模块化导入使用，所有作者信息都保留在源代码中，如果作者有自己在github上做维护，请issues。
+简单地将原有代码转换成了ES6规范，用于模块化导入使用。
+经过原作者的同意，将代码推送到github。如需联系联系作者，见如下：
+
+/**
+* @1900-2100区间内的公历、农历互转
+* @charset  UTF-8
+* @Author  Jea杨(JJonline@JJonline.cn)
+* @Time    2014-7-21
+* @Time    2016-8-13 Fixed 2033hex、Attribution Annals
+* @Version 1.0.1
+* @公历转农历：calendar.solar2lunar(1987,11,01); //[you can ignore params of prefix 0]
+* @农历转公历：calendar.lunar2solar(1987,09,10); //[you can ignore params of prefix 0]
+*/
