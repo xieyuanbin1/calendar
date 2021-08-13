@@ -80,5 +80,5 @@ npm install solar2lunar --save-dev
 ```javascript
 import calendar from 'solar2lunar'
 
-calendar.solar2lunar(1987,11,01);
+calendar.solar2lunar(1987,11,01)
 ```
