@@ -1,6 +1,6 @@
 {
   "name": "solar2lunar",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "简单地将原有代码转换成了ES6规范，用于模块化导入使用。\r 经过原作者的同意，将代码推送到github。如需联系联系作者，见如下：",
   "main": "./index.js",
   "typings": "./index.d.ts",
