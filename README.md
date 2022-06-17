@@ -84,7 +84,7 @@ calendar.lunar2solar(1987,9,10);
 * #### 现在可以通过npm来使用calendar了
 
 ```npm
-npm install solar2lunar --save-dev
+npm install solar2lunar
 ```
 
 ```javascript
