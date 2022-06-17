@@ -15,13 +15,23 @@
 
 ------
 
+# 安装
+```shell
+npm i solar2lunar
+```
+
 # 用法
-* 下载index.js到本地
-* 工程文件中直接引入，由于采用的是ES6模块写法，如果有其他需求的可以自行更改。
 
 ```javascript
-import  calendar from '.../...'
-calendar.lunar2solar();
+// ES module
+import calendar from 'solar2lunar'
+// import { solar2lunar, solar2lunar } from 'solar2lunar'
+calendar.solar2lunar(1987,11,01);
+
+// commonjs
+const calendar = require('solar2lunar')
+// const { solar2lunar, solar2lunar } = require('solar2lunar')
+calendar.solar2lunar(1987,11,01);
 ```
 
 #### 公历年月日转农历数据 返回json
