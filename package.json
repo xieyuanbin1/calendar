@@ -1,11 +1,12 @@
 {
   "name": "solar2lunar",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "solar2lunar, lunar2solar",
-  "main": "./index.js",
+  "main": "./dist/index.min.js",
   "typings": "./index.d.ts",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "tape test/calendar.test.js | tap-spec",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/xybin1990/calendar/issues"
   },
-  "homepage": "https://github.com/xybin1990/calendar#readme"
+  "homepage": "https://github.com/xybin1990/calendar#readme",
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-size": "^4.0.1",
+    "gulp-tar": "^3.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.5.3"
+  }
 }

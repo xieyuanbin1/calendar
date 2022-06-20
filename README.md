@@ -15,9 +15,20 @@
 
 ------
 
-# 安装
+# EdgerOS 安装和使用
+```shell
+npm install @edgeros/solar2lunar
+```
+
+# Node.js 环境安装
 ```shell
 npm i solar2lunar
+```
+
+```javascript
+const calendar = require('@edgeros/solar2lunar')
+// const { solar2lunar, solar2lunar } = require('solar2lunar')
+calendar.solar2lunar(1987,11,01);
 ```
 
 # 用法

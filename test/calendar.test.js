@@ -1,0 +1,26 @@
+const test = require('tape')
+const calendar = require('../index')
+
+test('test solar2lunar', t => {
+  const solar2lunar = calendar.solar2lunar(1987,11,1)
+  t.ok(solar2lunar.cYear === 1987, 'year equals')
+  t.ok(solar2lunar.cMonth === 11, 'month equals')
+  t.ok(solar2lunar.cDay === 1, 'day equals')
+  t.ok(solar2lunar.Animal === '兔', 'Animal equals')
+  t.ok(solar2lunar.gzYear === '丁卯', 'gzYear equals')
+  t.ok(solar2lunar.gzMonth === '庚戌', 'gzMonth equals')
+  t.ok(solar2lunar.gzDay === '甲寅', 'gzDay equals')
+  t.end()
+})
+
+test('test lunar2solar', t => {
+  const lunar2solar = calendar.lunar2solar(1987,9,10)
+  t.ok(lunar2solar.lYear === 1987, 'year equals')
+  t.ok(lunar2solar.lMonth === 9, 'month equals')
+  t.ok(lunar2solar.lDay === 10, 'day equals')
+  t.ok(lunar2solar.Animal === '兔', 'Animal equals')
+  t.ok(lunar2solar.gzYear === '丁卯', 'gzYear equals')
+  t.ok(lunar2solar.gzMonth === '庚戌', 'gzMonth equals')
+  t.ok(lunar2solar.gzDay === '甲寅', 'gzDay equals')
+  t.end()
+})

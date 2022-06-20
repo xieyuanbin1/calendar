@@ -1,3 +1,7 @@
+declare module "@edgeros/solar2lunar" {
+  import calendar = require("solar2lunar");
+  export = calendar;
+}
 declare module 'solar2lunar' {
   interface Calendar {
     lYear: number;
