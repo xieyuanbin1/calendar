@@ -23,6 +23,7 @@ npm install @edgeros/solar2lunar
 # Node.js 环境安装
 ```shell
 npm i solar2lunar
+
 ```
 
 ```javascript
